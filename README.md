@@ -1,5 +1,7 @@
 # Virtual File System Simulator
-Simulation of Allocation and de-allocation of files and folders using different allocation techniques. 
+Simulation of Allocation and de-allocation of files and folders using different allocation techniques. <br/>
+We are not creating actual files and folder, we will just simulate having a series of blocks and these blocks will be allocated to files when created and will be de-allocated when these files are deleted.<br/>
+Virtual file system information like (the files information, the folders information, the allocated blocks and so on) should be saved on a file on your hard disk to be able to load it the next time you run the application.
 
 ## Techniques
 * **<a href="https://www.javatpoint.com/os-contiguous-allocation">Contigous Allocation </a>**
